@@ -1,6 +1,9 @@
 function handleResponse(response) {
     if (response) {
-        alert('¡Gracias por hacerme la persona más feliz del mundo! ❤️');
+        const content = document.querySelector('.content');
+        content.innerHTML = '<div class="heart"></div>';
+        document.querySelector('.heart').style.display = 'block';
+        alert('¡Gracias por darme esta linda oportunidad! ❤️');
     } else {
         const noButton = document.querySelector('.btn-no');
         const yesButton = document.querySelector('.btn-yes');
