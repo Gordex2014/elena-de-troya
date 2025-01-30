@@ -31,12 +31,16 @@ body::before {
     text-align: center;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 .message {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 2rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+    color: #ff1493;
+    margin-bottom: 2.5rem;
     font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    text-shadow: 3px 3px 6px rgba(255, 255, 255, 0.8);
+    letter-spacing: 1px;
 }
 
 .buttons {
@@ -45,12 +49,14 @@ body::before {
 }
 
 .btn {
+    font-family: 'Dancing Script', cursive;
     padding: 1rem 2rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     border: none;
     border-radius: 25px;
     cursor: pointer;
     transition: transform 0.2s;
+    font-weight: bold;
 }
 
 .btn:hover {
