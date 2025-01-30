@@ -31,10 +31,8 @@ body::before {
     text-align: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-
 .message {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Brush Script MT', cursive, 'Comic Sans MS', 'Arial Rounded MT Bold', sans-serif;
     font-size: 3.5rem;
     color: #ff1493;
     margin-bottom: 2.5rem;
@@ -49,7 +47,7 @@ body::before {
 }
 
 .btn {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Brush Script MT', cursive, 'Comic Sans MS', 'Arial Rounded MT Bold', sans-serif;
     padding: 1rem 2rem;
     font-size: 1.5rem;
     border: none;
